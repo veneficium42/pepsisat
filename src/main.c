@@ -1,8 +1,11 @@
 #include "stm32l4xx_hal.h"
+#include "stm32ipl.h"
 
 #define LED_PIN                                GPIO_PIN_5
 #define LED_GPIO_PORT                          GPIOA
 #define LED_GPIO_CLK_ENABLE()                  __HAL_RCC_GPIOA_CLK_ENABLE()
+
+#define STM32IPL_INT_BUFFER_SIZE (1024 * 256)
 
 int main(void)
 {
@@ -16,7 +19,10 @@ int main(void)
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
-  HAL_GPIO_Init(LED_GPIO_PORT, &GPIO_InitStruct); 
+  HAL_GPIO_Init(LED_GPIO_PORT, &GPIO_InitStruct);
+
+  uint8_t stm32iplBuffer[STM32IPL_INT_BUFFER_SIZE];
+  STM32Ipl_InitLib(stm32iplBuffer, STM32IPL_INT_BUFFER_SIZE);
 
   while (1)
   {
@@ -24,6 +30,8 @@ int main(void)
     
     HAL_Delay(1000);
   }
+
+  STM32Ipl_DeInitLib();
 }
 
 void SysTick_Handler(void)
