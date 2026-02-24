@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32H747IIT6
+D Dual 32-bit Arm Cortex-M7 up to 480MHz and -M4 MCUs, up to 2MB flash, 1MB RAM, 46 com. and analog interfaces, SMPS, DSI
+K
+F https://www.st.com/resource/en/datasheet/stm32h747ag.pdf
+$ENDCMP
+#
+#End Doc Library
