@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "STM32H747IIT6")(type "KiCad")(uri "${KIPRJMOD}/STM32H747IIT6/STM32H747IIT6.kicad_sym")(options "")(descr ""))
   (lib (name "LSM6DSOXTR")(type "KiCad")(uri "${KIPRJMOD}/LSM6DSOXTR/2026-03-02_20-38-10.kicad_sym")(options "")(descr ""))
+  (lib (name "HMC5883L")(type "KiCad")(uri "${KIPRJMOD}/ul_HMC5883L/2026-03-16_20-24-30.kicad_sym")(options "")(descr ""))
 )

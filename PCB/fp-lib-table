@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "STM32H747IIT6")(type "KiCad")(uri "${KIPRJMOD}/STM32H747IIT6")(options "")(descr ""))
   (lib (name "LSM6DSOXTR")(type "KiCad")(uri "${KIPRJMOD}/LSM6DSOXTR/footprints.pretty")(options "")(descr ""))
+  (lib (name "HMC5883L")(type "KiCad")(uri "${KIPRJMOD}/ul_HMC5883L/footprints.pretty")(options "")(descr ""))
 )
