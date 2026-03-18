@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "38639f20-b816-4303-b44c-149b68aaf8a6")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x09_Odd_Even"
 			(pin_names
@@ -12191,7 +12191,7 @@
 	)
 	(symbol
 		(lib_id "HMC5883L:HMC5883L")
-		(at 307.34 179.07 0)
+		(at 83.82 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12200,7 +12200,7 @@
 		(fields_autoplaced yes)
 		(uuid "1502240c-108f-41b6-9e2a-1e252ea20fcf")
 		(property "Reference" "U6"
-			(at 327.66 168.91 0)
+			(at 104.14 88.9 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12208,7 +12208,7 @@
 			)
 		)
 		(property "Value" "HMC5883L"
-			(at 327.66 171.45 0)
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12216,7 +12216,7 @@
 			)
 		)
 		(property "Footprint" "LPCC16_HNW"
-			(at 307.34 179.07 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12226,7 +12226,7 @@
 			)
 		)
 		(property "Datasheet" "HMC5883L"
-			(at 307.34 179.07 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12236,7 +12236,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 307.34 179.07 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
