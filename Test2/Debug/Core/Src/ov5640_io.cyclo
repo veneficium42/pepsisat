@@ -1,0 +1,2 @@
+../Core/Src/ov5640_io.c:3:9:OV5640_IO_ReadReg	1
+../Core/Src/ov5640_io.c:14:9:OV5640_IO_WriteReg	1

@@ -1,0 +1,14 @@
+../Core/Src/sd_spi.c:67:13:SD_CS_Low	8	static
+../Core/Src/sd_spi.c:73:13:SD_CS_High	8	static
+../Core/Src/sd_spi.c:79:16:SPI_TxRx	32	static
+../Core/Src/sd_spi.c:102:13:SPI_SendDummyClocks	24	static
+../Core/Src/sd_spi.c:111:16:SD_WaitReady	24	static
+../Core/Src/sd_spi.c:131:16:SD_SendCommand	24	static
+../Core/Src/sd_spi.c:187:16:SD_ReceiveDataBlock	40	static
+../Core/Src/sd_spi.c:238:16:SD_TransmitDataBlock	24	static
+../Core/Src/sd_spi.c:274:17:SD_GetCSDCapacity	56	static
+../Core/Src/sd_spi.c:334:5:SD_SPI_Init	32	static
+../Core/Src/sd_spi.c:520:5:SD_SPI_ReadBlocks	32	static
+../Core/Src/sd_spi.c:594:5:SD_SPI_WriteBlocks	32	static
+../Core/Src/sd_spi.c:660:10:SD_SPI_GetSectorCount	4	static
+../Core/Src/sd_spi.c:665:6:SD_SPI_ReleaseBus	8	static

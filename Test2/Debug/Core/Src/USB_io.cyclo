@@ -1,0 +1,3 @@
+../Core/Src/USB_io.c:23:6:USB_SendBuffer	1
+../Core/Src/USB_io.c:32:6:USB_SendFrame	2
+../Core/Src/USB_io.c:55:6:USB_SendNextChunk	4
